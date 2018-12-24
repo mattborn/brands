@@ -1,0 +1,16 @@
+{
+  "name": "Brands",
+  "version": "1.0.0",
+  "description": "These are a few of my favorite brands.",
+  "main": "process.js",
+  "scripts": {
+    "process": "node process.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^4.0.0"
+  }
+}

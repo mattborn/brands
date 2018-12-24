@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+body {
+  background: #f1f3f5;
+  color: #579;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 2em;
+  text-align: center;
+}
+
+h1 { color: #135; }
+h1 .fas {
+  display: block;
+  margin-bottom: .5em;
+}
+
+h2 {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1;
+}
+
+a {
+  color: #135;
+  text-decoration: none; 
+}
+a:hover { text-decoration: underline; }
+
+button {
+  background: #135;
+  border-radius: 5px;
+  border-width: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: inherit;
+  font-weight: bold;
+  margin: 1em 0 2em;
+  padding: 1em 1.5em;
+}
+button:hover { background: #135; }
+
+.small {
+  font-size: 13px;
+  margin-top: 2em;
+  opacity: .5;
+}
+.small a { color: inherit; }
