@@ -1,34 +1,246 @@
 [
   {
     "name": "Abstract",
-    "url": "https://www.goabstract.com/"
+    "url": "https://www.goabstract.com"
   },
   {
     "name": "Any.do",
-    "url": "https://www.any.do/"
+    "url": "https://www.any.do"
   },
   {
     "name": "Billie",
-    "url": "https://mybillie.com/"
+    "url": "https://mybillie.com"
   },
   {
     "name": "Bird",
-    "url": "https://www.bird.co/"
+    "url": "https://www.bird.co"
   },
   {
     "name": "Blinkist",
-    "url": "https://www.blinkist.com/nc/confirm/"
+    "url": "https://www.blinkist.com/nc/confirm"
   },
   {
     "name": "Bloomberg",
-    "url": "https://www.bloomberg.com/"
+    "url": "https://www.bloomberg.com"
   },
   {
     "name": "Bravery",
-    "url": "https://braverymag.com/"
+    "url": "https://braverymag.com"
   },
   {
     "name": "Canopy",
     "url": "https://www.canopytax.com"
+  },
+  {
+    "name": "Cloudinary",
+    "url": "https://cloudinary.com"
+  },
+  {
+    "name": "Crate & Barrel",
+    "url": "https://www.crateandbarrel.com"
+  },
+  {
+    "name": "Creative Market",
+    "url": "https://creativemarket.com/free-goods"
+  },
+  {
+    "name": "Elm Coffee",
+    "url": "https://elmcoffeeroasters.com"
+  },
+  {
+    "name": "Envoy",
+    "url": "https://envoy.com"
+  },
+  {
+    "name": "Facebook Start",
+    "url": "https://developers.facebook.com/fbstart"
+  },
+  {
+    "name": "Fast Company",
+    "url": "https://www.fastcompany.com"
+  },
+  {
+    "name": "FiveThirtyEight",
+    "url": "https://fivethirtyeight.com"
+  },
+  {
+    "name": "Flats",
+    "url": "https://www.flatslife.com"
+  },
+  {
+    "name": "FontShop",
+    "url": "https://fontshop.com"
+  },
+  {
+    "name": "Foxtrot",
+    "url": "http://foxtrotco.com"
+  },
+  {
+    "name": "Framer",
+    "url": "https://framer.com"
+  },
+  {
+    "name": "Glossier",
+    "url": "https://www.glossier.com"
+  },
+  {
+    "name": "Golden Suisse",
+    "url": "https://www.goldensuisse.com"
+  },
+  {
+    "name": "Grammarly",
+    "url": "https://www.grammarly.com"
+  },
+  {
+    "name": "Huge",
+    "url": "https://www.hugeinc.com"
+  },
+  {
+    "name": "Hulu",
+    "url": "https://www.hulu.com"
+  },
+  {
+    "name": "Inside Design",
+    "url": "https://www.invisionapp.com/inside-design"
+  },
+  {
+    "name": "JCrew",
+    "url": "https://www.jcrew.com"
+  },
+  {
+    "name": "Kickstarter",
+    "url": "https://www.kickstarter.com"
+  },
+  {
+    "name": "Letterfolk",
+    "url": "https://www.letterfolk.com"
+  },
+  {
+    "name": "Lime",
+    "url": "https://www.li.me"
+  },
+  {
+    "name": "Lucid",
+    "url": "https://luc.id"
+  },
+  {
+    "name": "Madewell",
+    "url": "https://www.madewell.com"
+  },
+  {
+    "name": "Maitre",
+    "url": "https://maitreapp.co"
+  },
+  {
+    "name": "Metalab",
+    "url": "https://metalab.co"
+  },
+  {
+    "name": "Monzo",
+    "url": "https://monzo.com"
+  },
+  {
+    "name": "Olapic",
+    "url": "https://www.olapic.com"
+  },
+  {
+    "name": "Product School",
+    "url": "https://www.productschool.com/ship-it-book"
+  },
+  {
+    "name": "Quartz",
+    "url": "https://qz.com"
+  },
+  {
+    "name": "Brightly",
+    "url": "https://www.readbrightly.com"
+  },
+  {
+    "name": "Ritual",
+    "url": "https://ritual.com"
+  },
+  {
+    "name": "Robinhood",
+    "url": "https://robinhood.com"
+  },
+  {
+    "name": "Room & Board",
+    "url": "https://www.roomandboard.com"
+  },
+  {
+    "name": "Seatgeek",
+    "url": "https://seatgeek.com"
+  },
+  {
+    "name": "Shoe Drop",
+    "url": "https://shoedrop.com"
+  },
+  {
+    "name": "Smartwool",
+    "url": "https://www.smartwool.com"
+  },
+  {
+    "name": "Sprout Social",
+    "url": "https://sproutsocial.com"
+  },
+  {
+    "name": "Stripe",
+    "url": "https://stripe.com/atlas"
+  },
+  {
+    "name": "Supreme",
+    "url": "https://www.supremenewyork.com"
+  },
+  {
+    "name": "InVision Studio",
+    "url": "https://switchtostudio.com"
+  },
+  {
+    "name": "Target",
+    "url": "https://www.target.com"
+  },
+  {
+    "name": "Topshop",
+    "url": "http://us.topshop.com"
+  },
+  {
+    "name": "Trade",
+    "url": "https://www.drinktrade.com"
+  },
+  {
+    "name": "Twine",
+    "url": "https://twine.com"
+  },
+  {
+    "name": "Typeform",
+    "url": "https://www.typeform.com"
+  },
+  {
+    "name": "Typewolf",
+    "url": "https://www.typewolf.com"
+  },
+  {
+    "name": "Uber",
+    "url": "https://www.uber.com"
+  },
+  {
+    "name": "Ratio",
+    "url": "https://useratio.com"
+  },
+  {
+    "name": "Wealthfront",
+    "url": "https://www.wealthfront.com"
+  },
+  {
+    "name": "You Work For Them",
+    "url": "https://www.youworkforthem.com"
+  },
+  {
+    "name": "Zocdoc",
+    "url": "https://www.zocdoc.com"
+  },
+  {
+    "name": "USA Today",
+    "url": "https://www.usatoday.com"
   }
 ]

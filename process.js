@@ -17,7 +17,9 @@ function parseURL(obj) {
     let brand = {
       added: Date.now(),
       name: obj.name,
+      url: obj.url,
     }
+    delete res.body['url']
     Object.assign(brand, res.body)
     delete brand['author']
     delete brand['date_published']
@@ -28,9 +30,10 @@ function parseURL(obj) {
     delete brand['total_pages']
     delete brand['rendered_pages']
     brands.push(brand)
+    console.log('Request complete for '+ obj.name)
   })
   .catch(err => {
-    console.log(err.response, err.message)
+    console.log(err.status, err.message, obj.url)
   })
 }
 
@@ -42,11 +45,19 @@ if (urls.length) {
     const promises = urls.map(parseURL)
     await Promise.all(promises);
 
-    // after all the requests are done, sort and save everything to a JSON file
+    // all requests are done
     console.log(urls.length +' brand'+ (urls.length !== 1 ? 's' : '') +' added')
+
+    console.log('Total brands: '+ brands.length)
+
+    // sort by name
     sorted = brands.sort((a, b) => a.name.localeCompare(b.name))
+
+    // save everything to JSON file
     fs.writeFileSync('brands.json', JSON.stringify(sorted))
   })(urls)
 } else {
   console.log('No brands added')
 }
+
+console.log('Total brands: '+ brands.length)

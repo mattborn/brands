@@ -1,25 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Karla');
 @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
 
 body {
   background: #f1f3f5;
-  color: #579;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  padding: 2em;
-  text-align: center;
+  color: #081624;
+  font-family: 'Karla', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 1rem;
 }
 
-h1 { color: #135; }
-h1 .fas {
-  display: block;
-  margin-bottom: .5em;
-}
-
-h2 {
-  font-family: 'EB Garamond', Georgia, serif;
-  font-size: 2em;
-  font-weight: 400;
-  line-height: 1;
+img {
+  max-width: 100%;
+  vertical-align: bottom;
 }
 
 a {
@@ -47,3 +39,26 @@ button:hover { background: #135; }
   opacity: .5;
 }
 .small a { color: inherit; }
+
+
+#brands {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -.5rem;
+}
+.brand {
+  background: #fff;
+  border-radius: 5px;
+  flex: 0 0 15rem;
+  margin: .5rem;
+}
+.brand-name {
+  font-size: 13px;
+  margin: 1rem;
+}
+.brand-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+}
